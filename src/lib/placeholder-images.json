@@ -1,0 +1,196 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user1",
+      "description": "Profile picture of user 1",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjEyMjc5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "user2",
+      "description": "Profile picture of user 2",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1559855603-ce4c8f480d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzYxMjQ2NTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "user3",
+      "description": "Profile picture of user 3",
+      "imageUrl": "https://images.unsplash.com/photo-1612694790876-bec1383fbb40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBnbGFzc2VzfGVufDB8fHx8MTc2MTI5MzE2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man glasses"
+    },
+    {
+      "id": "user4",
+      "description": "Profile picture of user 4",
+      "imageUrl": "https://images.unsplash.com/photo-1703122215629-3d46c3797520?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwbmF0dXJlfGVufDB8fHx8MTc2MTI2NTExMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person nature"
+    },
+    {
+      "id": "user5",
+      "description": "Profile picture of user 5",
+      "imageUrl": "https://images.unsplash.com/photo-1545209536-c79b0603d7ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGxhdWdoaW5nfGVufDB8fHx8MTc2MTI5MTczOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman laughing"
+    },
+    {
+      "id": "post1",
+      "description": "A scenic mountain landscape",
+      "imageUrl": "https://images.unsplash.com/photo-1612441804231-77a36b284856?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb3VudGFpbiUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjEyMjA4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain landscape"
+    },
+    {
+      "id": "post2",
+      "description": "A delicious plate of pasta",
+      "imageUrl": "https://images.unsplash.com/photo-1706051563585-01ddec70a791?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmb29kJTIwcGFzdGF8ZW58MHx8fHwxNzYxMzA4MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food pasta"
+    },
+    {
+      "id": "post3",
+      "description": "A city skyline at night",
+      "imageUrl": "https://images.unsplash.com/photo-1513061379709-ef0cd1695189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaXR5JTIwbmlnaHR8ZW58MHx8fHwxNzYxMjU5MDc1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city night"
+    },
+    {
+      "id": "post4",
+      "description": "A person reading a book in a cozy chair",
+      "imageUrl": "https://images.unsplash.com/photo-1603284569248-821525309698?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVhZGluZyUyMGJvb2t8ZW58MHx8fHwxNzYxMjI5MzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "reading book"
+    },
+    {
+      "id": "post5",
+      "description": "A sunny day at the beach",
+      "imageUrl": "https://images.unsplash.com/photo-1753129557644-c705b9651534?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWFjaCUyMHN1bm55fGVufDB8fHx8MTc2MTMwODE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach sunny"
+    },
+    {
+      "id": "post6",
+      "description": "An artist's canvas with a painting",
+      "imageUrl": "https://images.unsplash.com/flagged/photo-1572392640988-ba48d1a74457?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcnQlMjBwYWludGluZ3xlbnwwfHx8fDE3NjEyNjUxMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "art painting"
+    },
+    {
+      "id": "story1",
+      "description": "A story image of a beach",
+      "imageUrl": "https://images.unsplash.com/photo-1460627390041-532a28402358?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHN1bnNldHxlbnwwfHx8fDE3NjEzMDgxNDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beach sunset"
+    },
+    {
+      "id": "story2",
+      "description": "A story image of a concert",
+      "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb25jZXJ0JTIwY3Jvd2R8ZW58MHx8fHwxNzYxMjk1MDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "concert crowd"
+    },
+    {
+      "id": "story3",
+      "description": "A story image of a cute puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1681008570032-abdfcb23f875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwdXBweSUyMGRvZ3xlbnwwfHx8fDE3NjEyODMyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "puppy dog"
+    },
+    {
+      "id": "story4",
+      "description": "A story image of a coffee cup",
+      "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2ZmZWUlMjBhcnR8ZW58MHx8fHwxNzYxMjc2NTE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee art"
+    },
+    {
+      "id": "story5",
+      "description": "A story image of hiking boots",
+      "imageUrl": "https://images.unsplash.com/photo-1648027286072-fb339b0d0c06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaWtpbmclMjBib290c3xlbnwwfHx8fDE3NjEyOTk2MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hiking boots"
+    },
+    {
+      "id": "currentUser",
+      "description": "Current user's profile picture",
+      "imageUrl": "https://images.unsplash.com/photo-1702478553542-3aa3c0148543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm9maWxlJTIwYXZhdGFyfGVufDB8fHx8MTc2MTI0NjQ4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile avatar"
+    },
+    {
+      "id": "post7",
+      "description": "A computer screen with code",
+      "imageUrl": "https://images.unsplash.com/photo-1550439062-609e1531270e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2Rpbmd8ZW58MHx8fHwxNzYxMzExMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding computer"
+    },
+    {
+      "id": "post8",
+      "description": "A cute golden retriever puppy",
+      "imageUrl": "https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "dog puppy"
+    },
+    {
+      "id": "post9",
+      "description": "A stack of pancakes with syrup",
+      "imageUrl": "https://images.unsplash.com/photo-1598214886806-c87b84b7078b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxicnVuY2h8ZW58MHx8fHwxNzYxMzExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "brunch food"
+    },
+    {
+      "id": "post10",
+      "description": "A colorful graffiti wall",
+      "imageUrl": "https://images.unsplash.com/photo-1561055657-b9e0bf0fa360?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "street art"
+    },
+    {
+      "id": "post11",
+      "description": "A cat sleeping in the sun",
+      "imageUrl": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXR8ZW58MHx8fHwxNzYxMzEyNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cat sleeping"
+    },
+    {
+      "id": "post12",
+      "description": "A crowd at a music concert",
+      "imageUrl": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb25jZXJ0fGVufDB8fHx8MTc2MTMxMjQ0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music concert"
+    },
+    {
+      "id": "post13",
+      "description": "A blooming sunflower in a garden",
+      "imageUrl": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "gardening flower"
+    },
+    {
+      "id": "post14",
+      "description": "A modern tech gadget on a desk",
+      "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwZ2FkZ2V0fGVufDB8fHx8MTc2MjAxNDI4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tech gadget"
+    },
+    {
+      "id": "post15",
+      "description": "A neon-lit street in Tokyo at night",
+      "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2t5byUyMG5pZ2h0fGVufDB8fHx8MTc2MjAxNDMyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "Tokyo night"
+    },
+    {
+      "id": "post16",
+      "description": "A person hiking on a mountain trail",
+      "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoaWtpbmd8ZW58MHx8fHwxNzYyMDE0Mzg3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hiking trail"
+    },
+    {
+      "id": "post17",
+      "description": "A cozy coffee shop interior",
+      "imageUrl": "https://images.unsplash.com/photo-1517242027094-631f8c218a0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzaG9wfGVufDB8fHx8MTc2MjAxNDQxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee shop"
+    },
+    {
+      "id": "post18",
+      "description": "A candid street photography shot",
+      "imageUrl": "https://images.unsplash.com/photo-1506152983158-b4a74a01c721?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJlZXQlMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3NjIwMTQ0NDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "street photography"
+    },
+    {
+      "id": "post19",
+      "description": "Ancient ruins under a clear blue sky",
+      "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "ancient ruins"
+    },
+    {
+      "id": "post20",
+      "description": "A person riding a bike on a sunny day",
+      "imageUrl": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "bike ride"
+    },
+    {
+      "id": "post21",
+      "description": "A person working on a DIY project with wood",
+      "imageUrl": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&q=80&w=1080",
+      "imageHint": "DIY woodworking"
+    }
+  ]
+}

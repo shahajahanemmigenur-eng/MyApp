@@ -1,0 +1,96 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Represents a user's profile information.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The unique identifier for the user."
+        },
+        "name": {
+          "type": "string",
+          "description": "The user's display name."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The user's email address."
+        },
+        "mobileNumber": {
+          "type": "string",
+          "description": "The user's mobile phone number."
+        },
+        "avatarUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL to the user's avatar image."
+        },
+        "bio": {
+          "type": "string",
+          "description": "A short biography of the user."
+        },
+        "accountType": {
+          "type": "string",
+          "enum": [
+            "personal",
+            "private",
+            "professional",
+            "brand"
+          ],
+          "description": "The type of user account."
+        },
+        "dateOfBirth": {
+          "type": "string",
+          "format": "date",
+          "description": "The user's date of birth."
+        }
+      },
+      "required": ["userId", "name", "accountType"]
+    },
+    "Post": {
+      "title": "Post",
+      "description": "A single post made by a user.",
+      "type": "object",
+      "properties": {
+        "postId": {
+          "type": "string"
+        },
+        "authorId": {
+          "$ref": "#/entities/UserProfile/properties/userId"
+        },
+        "imageUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "caption": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["postId", "authorId", "imageUrl", "createdAt"]
+    }
+  },
+  "auth": {
+    "providers": ["anonymous"]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Stores public information about a user."
+    },
+    "/posts/{postId}": {
+      "schema": { "$ref": "#/entities/Post" },
+      "description": "Stores all posts in the application."
+    },
+    "/users/{userId}/posts/{postId}": {
+        "schema": { "$ref": "#/entities/Post" },
+        "description": "A subcollection storing posts made by a specific user."
+    }
+  }
+}
